@@ -1,0 +1,6 @@
+{
+    "package-name": "divio-storage-options",
+    "installed-apps": [
+        "divio_storage_options"
+    ]
+}
