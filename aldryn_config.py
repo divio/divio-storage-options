@@ -19,7 +19,10 @@ class Form(forms.BaseForm):
                         scheme="https",
                         host=custom_media_domain,
                         path=settings["AWS_MEDIA_BUCKET_PREFIX"],
-                    ).as_string().rstrip('/') + '/',
+                    )
+                    .as_string()
+                    .rstrip("/")
+                    + "/",
                 }
             )
 
